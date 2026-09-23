@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-//Passos di·rios
+//Passos di√°rios
 int main() {
     int passos, totalPassos = 0, horas = 0;
 
-	//PeÁo a quantidade de passos a cada hora atÈ atingir a meta diaria.
+	//Pe√ßo a quantidade de passos a cada hora at√© atingir a meta diaria.
     while (totalPassos < 10000) {
         horas++;
         printf("Digite os passos da hora %d: ", horas);
