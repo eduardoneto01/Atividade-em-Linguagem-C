@@ -4,7 +4,7 @@ int main() {
     int num, pares = 0, impares = 0;
 
     for (int i = 1; i <= 10; i++) {
-        printf("Digite o %d° numero inteiro: ", i);
+        printf("Digite o %dÂ° numero inteiro: ", i);
         scanf("%d", &num);
 
         if (num % 2 == 0) {
