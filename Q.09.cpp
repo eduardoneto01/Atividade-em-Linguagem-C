@@ -9,13 +9,13 @@ int main() {
         scanf("%d", &num);
 
         for (int i = 1; i <= 10; i++) {
-            printf("%d x %2d = %d\n", num, i, num * i);
+            printf("%d x %d = %d\n", num, i, num * i);
         }
 
         printf("\nDeseja calcular a tabuada de outro numero? (S/N): ");
         scanf(" %c", &resp);
 
-    } while (resp == 'S' || resp == 's');
+    } while (resp == 'S' || resp == 'N');
 
     return 0;
 }
