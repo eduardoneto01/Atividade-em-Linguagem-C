@@ -26,7 +26,7 @@ int main() {
         printf("Deseja cadastrar outro aluno? (S/N): ");
         scanf(" %c", &opcao);
 
-    } while (opcao == 'S' || opcao == 'N');
+    } while (opcao == 'S' || opcao == 's');
     
     printf(" Aprovados: %d\nRecuperacao: %d\nReprovados: %d\n", aprovados, recuperacao, reprovados);
 
