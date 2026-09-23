@@ -15,7 +15,7 @@ int main() {
         printf("\nDeseja calcular a tabuada de outro numero? (S/N): ");
         scanf(" %c", &resp);
 
-    } while (resp == 'S' || resp == 'N');
+    } while (resp == 'S' || resp == 's');
 
     return 0;
 }
