@@ -12,7 +12,7 @@ int main() {
         printf("Insira uma moeda: R$ ");
         scanf("%f", &moeda);
 		
-		//Declaro quais valores s„o aceitos, caso contr·rio, encerro o programa.
+		//Declaro quais valores s√£o aceitos, caso contr√°rio, encerro o programa.
         if (moeda == 0.50 || moeda == 1.00 || moeda == 2.00) {
             total += moeda;
             printf("Moeda adicionada! Saldo atual: R$ %.2f\n", total);
