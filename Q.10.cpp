@@ -29,7 +29,7 @@ int main() {
         printf("Deseja testar outro numero? (S/N): ");
         scanf(" %c", &resp);
 
-    } while (resp == 'S' || resp == 's');
+    } while (resp == 'S' || resp == 'N');
 
     return 0;
 }
